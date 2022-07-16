@@ -1,7 +1,10 @@
-import "./App.css";
-
+import Login from "./frontend/pages/Login";
 function App() {
-  return <div>Book Store</div>;
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
 
 export default App;
