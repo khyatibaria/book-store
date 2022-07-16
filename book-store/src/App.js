@@ -1,8 +1,8 @@
-import Login from "./frontend/pages/Login";
+import Signup from "./frontend/pages/Signup";
 function App() {
   return (
     <div>
-      <Login />
+      <Signup />
     </div>
   );
 }
