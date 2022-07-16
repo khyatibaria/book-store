@@ -1,7 +1,10 @@
-import "./App.css";
-
+import Signup from "./frontend/pages/Signup";
 function App() {
-  return <div>Book Store</div>;
+  return (
+    <div>
+      <Signup />
+    </div>
+  );
 }
 
 export default App;
