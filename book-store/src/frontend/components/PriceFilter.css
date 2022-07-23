@@ -1,0 +1,23 @@
+.price-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0.25rem;
+}
+.filter-input-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-filter-label {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.25rem;
+}
+.price-filter-input {
+  height: 1.5rem;
+}
+.filter-input:focus {
+  outline: none;
+}

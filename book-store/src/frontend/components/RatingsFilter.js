@@ -1,26 +1,57 @@
+import "./RatingsFilter.css";
 import Accordion from "../common/Accordion";
 import Filter from "../common/Filter";
-
+import Rating from "../common/Rating";
 const RatingsFilter = () => {
   const filterList = [
     {
-      label: "Horror",
+      label: (
+        <div className="rating-container">
+          <Rating />
+          <Rating />
+          <Rating />
+          <Rating />
+          <Rating />
+        </div>
+      ),
       onChange: () => {},
     },
     {
-      label: "Self Help",
+      label: (
+        <div className="rating-container">
+          <Rating />
+          <Rating />
+          <Rating />
+          <Rating />
+        </div>
+      ),
       onChange: () => {},
     },
     {
-      label: "Thriller",
+      label: (
+        <div className="rating-container">
+          <Rating />
+          <Rating />
+          <Rating />
+        </div>
+      ),
       onChange: () => {},
     },
     {
-      label: "Romance",
+      label: (
+        <div className="rating-container">
+          <Rating />
+          <Rating />
+        </div>
+      ),
       onChange: () => {},
     },
     {
-      label: "Finance",
+      label: (
+        <div className="rating-container">
+          <Rating />
+        </div>
+      ),
       onChange: () => {},
     },
   ];
