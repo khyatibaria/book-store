@@ -1,5 +1,4 @@
 import { images } from "../assets/index";
-//import Badge from "./Badge";
 const NavBar = (props) => {
   const { searchBar, sx, WishlistCount, productCount } = props;
   const { BookLogo } = images;
