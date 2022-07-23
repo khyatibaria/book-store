@@ -5,9 +5,9 @@ const Filter = (props) => {
   const { List } = props;
   return (
     <div className="filter-container">
-      <div className="filter-header">
+      {/* <div className="filter-header">
         <input className="filter-input" />
-      </div>
+      </div> */}
       <div className="filter-body">
         {List?.map((item) => {
           if (item.type === "radio") {
