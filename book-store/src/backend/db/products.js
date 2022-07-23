@@ -158,4 +158,12 @@ export const products = [
     categoryName: "thriller",
     src: "https://images-na.ssl-images-amazon.com/images/I/410i2hlkSLL._SX322_BO1,204,203,200_.jpg",
   },
+  {
+    _id: uuid(),
+    title: "Verity",
+    author: "Colleen Hoover",
+    price: "299",
+    categoryName: "horror",
+    src: "https://images-na.ssl-images-amazon.com/images/I/410i2hlkSLL._SX322_BO1,204,203,200_.jpg",
+  },
 ];
