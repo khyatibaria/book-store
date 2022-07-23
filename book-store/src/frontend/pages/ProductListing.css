@@ -1,2 +1,16 @@
+.product-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.menu-filter-container {
+  width: 20%;
+}
 .product-listing-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 75%;
+  background-color: pink;
 }
