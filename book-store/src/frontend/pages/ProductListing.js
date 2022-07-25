@@ -94,8 +94,8 @@ const ProductListing = () => {
     },
   ]);
   useEffect(() => {
-    fetch("/api/products").then((response) => {
-      console.log(response.products);
+    fetch("/api/products", { method: "GET" }).then((response) => {
+      console.log(response);
     });
   }, []);
   return (
